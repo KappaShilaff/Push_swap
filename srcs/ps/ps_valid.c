@@ -6,7 +6,7 @@
 /*   By: lcassaun <lcassaun@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 15:35:52 by lcassaun          #+#    #+#             */
-/*   Updated: 2020/07/13 16:42:36 by lcassaun         ###   ########.fr       */
+/*   Updated: 2020/07/13 17:13:52 by lcassaun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ int 	ps_valid(int ac, char **av)
 	return (1);
 }
 
-int 	ps_valid_double(long int *a, int i)
+int 	ps_valid_double(const long int *a, int i)
 {
 	int 	k;
 
@@ -78,7 +78,7 @@ int 	ps_valid_double_a(int ac, char **av, long int *a)
 	i = 0;
 	while (i < ac - 1)
 	{
-		a[i] = ft_atoi(av[i + 1]);
+		a[i] = ft_atoi_l(av[i + 1]);
 		if ((ps_valid_double(a, i)) == 0)
 			return (ps_error("duplicate argument\n"));
 		i++;
