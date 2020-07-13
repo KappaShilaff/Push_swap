@@ -6,7 +6,7 @@
 /*   By: lcassaun <lcassaun@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 15:28:34 by lcassaun          #+#    #+#             */
-/*   Updated: 2020/07/13 15:35:47 by lcassaun         ###   ########.fr       */
+/*   Updated: 2020/07/13 16:23:25 by lcassaun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,4 +16,5 @@ int 	main(int ac, char **av)
 {
 	if (ps_valid(ac, av) == 0)
 		return (0);
+	return (0);
 }
