@@ -6,7 +6,7 @@
 /*   By: lcassaun <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/05 16:55:12 by lcassaun          #+#    #+#             */
-/*   Updated: 2020/07/02 21:43:19 by lcassaun         ###   ########.fr       */
+/*   Updated: 2020/07/13 15:50:57 by lcassaun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -134,5 +134,6 @@ t_node				*ft_create_node(void *data);
 t_cont				*ft_create_cont_fd(int fd);
 int					get_next_line(const int fd, char **line);
 float				ft_abs_f(float x);
+long int			ft_atoi_l(char *s);
 
 #endif

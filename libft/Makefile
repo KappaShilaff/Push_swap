@@ -6,7 +6,7 @@
 #    By: lcassaun <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/17 17:33:09 by lcassaun          #+#    #+#              #
-#    Updated: 2020/06/30 21:21:46 by lcassaun         ###   ########.fr        #
+#    Updated: 2020/07/13 15:50:57 by lcassaun         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -111,6 +111,7 @@ SRCS_LIST = ft_memalloc.c\
 			ft_create_cont_fd.c\
 			ft_create_node.c\
 			ft_abs_f.c\
+			ft_atoi_l.c\
 
 
 SRCS = $(addprefix $(SRCS_DIR), $(SRCS_LIST))
